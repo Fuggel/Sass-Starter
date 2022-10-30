@@ -1,12 +1,4 @@
-// FONT
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
-$fontFamily: "Roboto", sans-serif;
-
-// GLOBAL
-@import "colors.scss";
-@import "mixins";
-@import "styles";
-
-// COMPONENTS
-@import "components/Template";
+@import "_fonts";
+@import "_colors";
+@import "_mixins";
+@import "_styles";
